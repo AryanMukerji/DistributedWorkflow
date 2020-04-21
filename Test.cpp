@@ -28,4 +28,28 @@ int main()
     cout << "\nThe vector elements are: "; 
     for (int i = 0; i < v.size(); i++) 
         cout << v[i] << " ";
+    
+    // inserts 5 at the beginning 
+    v.insert(v.begin(), 5); 
+  
+    cout << "\nThe first element is: " << v[0]; 
+  
+    // removes the first element 
+    v.erase(v.begin()); 
+  
+    cout << "\nThe first element is: " << v[0]; 
+  
+    // inserts at the beginning 
+    v.emplace(v.begin(), 5); 
+    cout << "\nThe first element is: " << v[0]; 
+  
+    // Inserts 20 at the end 
+    v.emplace_back(20); 
+    n = v.size(); 
+    cout << "\nThe last element is: " << v[n - 1]; 
+  
+    // erases the vector 
+    v.clear(); 
+    cout << "\nVector size after erase(): " << v.size();
+
 
