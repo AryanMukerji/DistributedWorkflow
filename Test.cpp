@@ -1,6 +1,7 @@
 // C++ program to illustrate the 
-// Modifiers in vector 
-#include <bits/stdc++.h> 
+// Modifiers in vector
+
+#include <iostream> 
 #include <vector> 
 using namespace std; 
   
@@ -76,5 +77,7 @@ int main()
   
     cout << "\nVector 2: "; 
     for (int i = 0; i < v2.size(); i++) 
-        cout << v2[i] << " "; 
+        cout << v2[i] << " ";
+
+    return 0;
 } 
