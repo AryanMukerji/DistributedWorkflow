@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int int main(int argc, char const *argv[]) {
     int n,rem,rev = 0;
     cout << "Enter a number: ";
     cin >> n;
@@ -24,7 +23,7 @@ int main()
 }
 
 // Function in C
-/* void isPalindrome(char str[]) 
+/* void isPalindrome(char str[])
 {
     // Start from leftmost and rightmost corners of str
     int l = 0;
