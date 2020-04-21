@@ -1,3 +1,4 @@
 # DistributedWorkflow
 
-Reporsitory to Practise Distributed Workflow 
+Repository to Practise Distributed Workflow
+
