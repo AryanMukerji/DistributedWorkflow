@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath.h>
 using namespace std;
-int main()
+int int main(int argc, char const *argv[])
 {
 	int n,i;
 	int prod=0;
@@ -12,5 +12,3 @@ int main()
 
 	return 0;
 }
-
-
